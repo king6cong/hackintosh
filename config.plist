@@ -6,6 +6,17 @@
 	<dict>
 		<key>DSDT</key>
 		<dict>
+			<key>Patches</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>Rename HDAS to HDEF</string>
+					<key>Find</key>
+					<data>SERBUw==</data>
+					<key>Replace</key>
+					<data>SERFRg==</data>
+				</dict>
+			</array>
 			<key>Debug</key>
 			<false/>
 			<key>DropOEM_DSM</key>
@@ -113,7 +124,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>9</string>
+			<string>10</string>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -142,7 +153,7 @@
 			<false/>
 		</dict>
 		<key>UseIntelHDMI</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>DisableDrivers</key>
 	<array>
@@ -245,7 +256,7 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x3</string>
+		<string>0x67</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
