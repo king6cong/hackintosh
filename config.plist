@@ -76,7 +76,7 @@
 				<key>FixSBUS_0080</key>
 				<false/>
 				<key>FixShutdown_0004</key>
-				<false/>
+				<true/>
 				<key>FixUSB_1000</key>
 				<false/>
 				<key>NewWay_80000000</key>
