@@ -32,7 +32,7 @@
 				<key>AddMCHC_0008</key>
 				<false/>
 				<key>AddPNLF_1000000</key>
-				<false/>
+				<true/>
 				<key>DeleteUnused_400000</key>
 				<false/>
 				<key>FIX_ACST_4000000</key>
@@ -44,7 +44,7 @@
 				<key>FIX_RTC_20000</key>
 				<false/>
 				<key>FIX_S3D_2000000</key>
-				<false/>
+				<true/>
 				<key>FakeLPC_0020</key>
 				<false/>
 				<key>FiX_TMR_40000</key>
@@ -74,7 +74,7 @@
 				<key>FixSATA_0400</key>
 				<false/>
 				<key>FixSBUS_0080</key>
-				<false/>
+				<true/>
 				<key>FixShutdown_0004</key>
 				<true/>
 				<key>FixUSB_1000</key>
@@ -88,7 +88,7 @@
 			<false/>
 		</dict>
 		<key>HaltEnabler</key>
-		<false/>
+		<true/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -105,7 +105,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 -v</string>
+		<string>dart=0 -v darkwake=10 MountEFI=disk0</string>
 		<key>DefaultVolume</key>
 		<string>MacOS</string>
 		<key>Legacy</key>
@@ -117,7 +117,7 @@
 		<key>Timeout</key>
 		<integer>3</integer>
 		<key>XMPDetection</key>
-		<string>NO</string>
+		<string>YES</string>
 	</dict>
 	<key>Devices</key>
 	<dict>
