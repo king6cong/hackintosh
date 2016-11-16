@@ -117,7 +117,7 @@
 		<key>Timeout</key>
 		<integer>3</integer>
 		<key>XMPDetection</key>
-		<string>NO</string>
+		<string>YES</string>
 	</dict>
 	<key>Devices</key>
 	<dict>
