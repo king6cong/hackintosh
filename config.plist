@@ -105,7 +105,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 -v</string>
+		<string>dart=0 -v darkwake=10 boot-args=&quot;kext-dev-mode=1 nv_spanmodepolicy=1&quot;</string>
 		<key>DefaultVolume</key>
 		<string>MacOS</string>
 		<key>Legacy</key>
