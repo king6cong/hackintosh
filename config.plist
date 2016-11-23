@@ -79,13 +79,9 @@
 					<key>Comment</key>
 					<string>Rename HDAS to HDEF</string>
 					<key>Find</key>
-					<data>
-					SERBUw==
-					</data>
+					<data>SERBUw==</data>
 					<key>Replace</key>
-					<data>
-					SERFRg==
-					</data>
+					<data>SERFRg==</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -109,7 +105,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 -v darkwake=10 kext-dev-mode=1 nv_spanmodepolicy=1</string>
+		<string>dart=0 -v darkwake=0 nvda_drv=1 kext-dev-mode=1 nv_spanmodepolicy=1</string>
 		<key>DefaultVolume</key>
 		<string>MacOS</string>
 		<key>Legacy</key>
@@ -123,6 +119,13 @@
 		<key>XMPDetection</key>
 		<string>YES</string>
 	</dict>
+	<key>CPU</key>
+	<dict>
+		<key>Type</key>
+		<string>0x0905</string>
+		<key>QPI</key>
+		<string>100</string>
+	</dict>
 	<key>Devices</key>
 	<dict>
 		<key>AddProperties</key>
@@ -133,9 +136,7 @@
 				<key>Key</key>
 				<string>AAPL,Gfx324</string>
 				<key>Value</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 			</dict>
 			<dict>
 				<key>Device</key>
@@ -143,9 +144,7 @@
 				<key>Key</key>
 				<string>AAPL,GfxYTile</string>
 				<key>Value</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 			</dict>
 			<dict>
 				<key>Device</key>
@@ -153,9 +152,7 @@
 				<key>Key</key>
 				<string>AAPL00,PanelCycleDelay</string>
 				<key>Value</key>
-				<data>
-				+gAAAA==
-				</data>
+				<data>+gAAAA==</data>
 			</dict>
 			<dict>
 				<key>Device</key>
@@ -163,9 +160,7 @@
 				<key>Key</key>
 				<string>AAPL00,PanelPowerDown</string>
 				<key>Value</key>
-				<data>
-				PAAAAA==
-				</data>
+				<data>PAAAAA==</data>
 			</dict>
 			<dict>
 				<key>Device</key>
@@ -173,9 +168,7 @@
 				<key>Key</key>
 				<string>AAPL00,PanelPowerOff</string>
 				<key>Value</key>
-				<data>
-				EQAAAA==
-				</data>
+				<data>EQAAAA==</data>
 			</dict>
 			<dict>
 				<key>Device</key>
@@ -183,9 +176,7 @@
 				<key>Key</key>
 				<string>AAPL00,PanelPowerOn</string>
 				<key>Value</key>
-				<data>
-				GQEAAA==
-				</data>
+				<data>GQEAAA==</data>
 			</dict>
 			<dict>
 				<key>Device</key>
@@ -193,9 +184,7 @@
 				<key>Key</key>
 				<string>AAPL00,PanelPowerUp</string>
 				<key>Value</key>
-				<data>
-				MAAAAA==
-				</data>
+				<data>MAAAAA==</data>
 			</dict>
 			<dict>
 				<key>Device</key>
@@ -203,9 +192,7 @@
 				<key>Key</key>
 				<string>graphic-options</string>
 				<key>Value</key>
-				<data>
-				DAAAAA==
-				</data>
+				<data>DAAAAA==</data>
 			</dict>
 			<dict>
 				<key>Device</key>
@@ -318,43 +305,31 @@
 				<key>Comment</key>
 				<string>External icons patch</string>
 				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
+				<data>RXh0ZXJuYWw=</data>
 				<key>Name</key>
 				<string>AppleAHCIPort</string>
 				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
+				<data>SW50ZXJuYWw=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>10.11-SKL-1912000-4_displays</string>
 				<key>Find</key>
-				<data>
-				AQMDAw==
-				</data>
+				<data>AQMDAw==</data>
 				<key>Name</key>
 				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
-				<data>
-				AQMEAw==
-				</data>
+				<data>AQMEAw==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Increase 15 port limit to 26 in AppleUSBXHCIPCI</string>
 				<key>Find</key>
-				<data>
-				g710////EA==
-				</data>
+				<data>g710////EA==</data>
 				<key>Name</key>
 				<string>AppleUSBXHCIPCI</string>
 				<key>Replace</key>
-				<data>
-				g710////Gw==
-				</data>
+				<data>g710////Gw==</data>
 			</dict>
 		</array>
 	</dict>
