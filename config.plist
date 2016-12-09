@@ -121,8 +121,6 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
-		<key>Type</key>
-		<string>0x0905</string>
 		<key>QPI</key>
 		<string>100</string>
 	</dict>
