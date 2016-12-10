@@ -341,21 +341,23 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/22/2015</string>
+		<string>04/11/2016</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM171.88Z.0105.B00.1509221819</string>
+		<string>IM171.88Z.0105.B08.1604111319</string>
 		<key>Board-ID</key>
-		<string>Mac-65CE76090165799A</string>
+		<string>Mac-B809C3757DA9BB8D</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02527608TLGPDYA6</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>iMac17,1</string>
 		<key>ChassisAssetTag</key>
-		<string></string>
+		<string>iMac-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
@@ -369,7 +371,9 @@
 		<key>ProductName</key>
 		<string>iMac17,1</string>
 		<key>SerialNumber</key>
-		<string>C02S5AB2GG7L</string>
+		<string>C02Q1WGVH2YQ</string>
+		<key>SmUUID</key>
+		<string>C3F8B182-9B7B-4F16-AAA5-42364E581A10</string>
 		<key>Trust</key>
 		<false/>
 		<key>Version</key>
